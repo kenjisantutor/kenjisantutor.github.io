@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+.content-left {
+  font-family: 'Inter', sans-serif;
+}
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-family: 'Kristi', cursive;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.contact .contact-btn {
+    background-color: #2f8f2f;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.contact .contact-btn:hover {
+    background-color: #246624;
+}
+
+/* Main section styles */
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.content-left {
+    flex: 1;
+    min-width: 300px;
+    padding-right: 20px;
+}
+
+.content-left h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.content-left h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #555;
+}
+
+.content-left p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+.links {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.links a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.content-right {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#largeImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Gallery styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #fafafa;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer styles */
+footer {
+    padding: 20px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
